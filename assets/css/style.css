@@ -44,7 +44,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: hsl(0, 0%, 100%);
 }
 
 #preloader:before {
@@ -395,6 +395,7 @@ h6 {
     right: 0; 
     /* transform: translateY(-50%); */
 }
+
 #hero .logo-tagline{
   font-size: 10px;
 }
@@ -1804,9 +1805,6 @@ section {
   color: #fff;
 }
 
-#footer .copyright {
-  float: left;
-}
 
 #footer .credits {
   float: right;
@@ -1821,12 +1819,6 @@ section {
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-
-  #footer .copyright,
-  #footer .credits {
-    text-align: center;
-    float: none;
   }
 
   #footer .credits {
