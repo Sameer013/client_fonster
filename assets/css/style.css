@@ -33,6 +33,10 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
+table{
+  font-family: "Jost", sans-serif;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1208,6 +1212,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .row {
   padding-top: 40px;
+  margin-top: 2rem;
 }
 
 .pricing .box {
@@ -1328,6 +1333,30 @@ section {
     margin: 0 auto 30px auto;
   }
 }
+
+
+/* Products  */
+
+.products .box {
+  margin: 2rem 0;
+  padding: 40px 40px;
+  box-shadow: 0 0 20px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  height: 55vh;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
+.products .tab{
+  width: 60%;
+}
+
+.products table{
+  width: 100%;
+  /* transform: scale(0.7); */
+  height: 200px;
+}
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1826,3 +1855,5 @@ section {
     padding-top: 4px;
   }
 }
+
+
